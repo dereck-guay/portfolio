@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		font-family: Poppins,
+		-apple-system,
+		BlinkMacSystemFont,
+		San Francisco,
+		Segoe UI,
+		Lucida Grande,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		sans-serif,
+		Apple Color Emoji,
+		Segoe UI Emoji,
+		Segoe UI Symbol;
+	}
+
+	body {
+		@apply bg-black text-white;
+	}
+}
+
+@layer utilities {
+	.container {
+		@apply max-w-7xl mx-auto;
+	}
+}
